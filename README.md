@@ -8,7 +8,7 @@ Path of database files to be created ->>>D:\mongodata\data
 
 
 ## Install Backend - NodeJs
-Go to Folder "/loginDemo" then run "npm install"
+Go to Folder "/login-jwt" then run "npm install"
 After installation completes run "npm start"
 
 Link:http://localhost:5500/api/
@@ -25,12 +25,12 @@ Body:{  "email": "testuser@yopmail.com", "password": "user1234",  "firstname": "
 Headers:{"Content-Type":"application/json"}
 
 ## SignIn
-POST : /api/user/signUp
+POST : /api/user/signUp 
 Body:{  "email": "testuser@yopmail.com", "password": "user1234"}
 Headers:{"Content-Type":"application/json"}
 
 ## User Info
-GET : /api/user/userInfo
+GET : /api/user/userInfo 
 Headers:{"access_token": 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZWNrQHlvcG1haWwuY29tIiwiaWF0IjoxNTUzNTg0Mzk1LCJleHAiOjE1NTM2NzA3OTV9.6WkP_sWLrhUMQzqjngpNzaqCEzmi4qDJKq619Dns0Yk',
      'Content-Type': 'application/json' }
 
